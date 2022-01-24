@@ -22,18 +22,18 @@ The exercise application mission behind this project is to analyze a document. S
 #### Phases
 
 Phase 1:   (Due 1/23)
-- [-] Study GitHub Actions
-- [] Define your programming rules and styles
-- [] Develop Github actions and implement your rules using preferred linter (flake8)
-- [] Develop the main console application or stub function
+- [ ] Study GitHub Actions
+- [ ] Define your programming rules and styles
+- [ ] Develop Github actions and implement your rules using preferred linter (flake8)
+- [ ] Develop the main console application or stub function
 
 Phase 2:  (Due 1/27)
-- [] Complete basic functionality
-- [] Define unit tests for your program and implement example console application and one test
+- [ ] Complete basic functionality
+- [ ] Define unit tests for your program and implement example console application and one test
 
 Phase 3:  (Due 1/30)
-- [] Implement your test programs and integrate them in GitHub actions
-- [] Complete and deliver homework
+- [ ] Implement your test programs and integrate them in GitHub actions
+- [ ] Complete and deliver homework
 
 ---
 
