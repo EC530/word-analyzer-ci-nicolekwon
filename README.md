@@ -22,7 +22,7 @@ The exercise application mission behind this project is to analyze a document. S
 #### Phases
 
 Phase 1:   (Due 1/23)
-- [] Study GitHub Actions
+- [-] Study GitHub Actions
 - [] Define your programming rules and styles
 - [] Develop Github actions and implement your rules using preferred linter (flake8)
 - [] Develop the main console application or stub function
