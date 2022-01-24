@@ -17,7 +17,7 @@
 
 #### Project
 
-The exercise application mission behind this project is to analyze a document. Specifically, the user stories include reading a text file and creating a histogram of all the word frequencies in the document.
+The exercise application mission behind this project is to analyze a document. Specifically, the user stories are reading a text file and creating a histogram of all the word frequencies in the document.
 
 #### Phases
 
