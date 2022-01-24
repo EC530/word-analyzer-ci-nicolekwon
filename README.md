@@ -1,5 +1,5 @@
 # word-analyzer-ci-nicolekwon
-word-analyzer-ci-nicolekwon created by GitHub Classroom
+
 > This ReadMe details Nicole Kwon's Project 1 for EC530. 
 
 ---
