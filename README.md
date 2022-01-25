@@ -8,7 +8,7 @@
 ## Table of Contents
 
 
-- [Descriptions of Project and Phases](#description)
+- [Descriptions of Project and Phases](#descriptions)
 - [Explanation of Code Layout](#explanation)
 
 ---
