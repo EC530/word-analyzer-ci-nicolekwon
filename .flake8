@@ -1,5 +1,10 @@
 [flake8]
 
-ignore = W292,E302,E261
+#Removed most blank line and whitespace warnings
+ignore = W292,E301,E302,E303,E304,E305,E306,E261
+
+max-complexity = 10
+
 max-line-length = 120
+
 indent-size = 4
