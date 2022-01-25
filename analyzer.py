@@ -5,12 +5,17 @@ import PyPDF2
 # counting word frequency
 def count_words():
 
-    # prompting reading file
+    # prompting user input
     file_name = input('Enter file name: ')
-    print(str.Substring(str. Length - 3))
+    last_char = file_name[-1]
 
-    if (str.Substring(str. Length - 3) == "pdf"):
-        file = file_name
+    # reading pdf
+    if (last_char == 'f'):
+        pdfFileObj = open(file_name, 'rb')
+        pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+        pageObj = pdfReader.getPage(0)
+        text = pageObj.extractText()
+    # reading text file
     else: 
         file = open(file_name)
         text = file.read()
