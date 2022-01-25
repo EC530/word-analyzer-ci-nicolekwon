@@ -9,7 +9,7 @@
 
 
 - [Descriptions of Project and Phases](#descriptions)
-- [Explanations of Code Set-Up and Layout](#explanation)
+- [Explanations of Code Set-Up and Layout](#explanations)
 
 ---
 
