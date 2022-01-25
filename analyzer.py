@@ -1,14 +1,20 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import PyPDF2
 
 # counting word frequency
 def count_words():
 
-    # reading file
-    file_name = 'test.txt'
-    file = open(file_name)
-    text = file.read()
-    file.close()
+    # prompting reading file
+    file_name = input('Enter file name: ')
+    print(str.Substring(str. Length - 3))
+
+    if (str.Substring(str. Length - 3) == "pdf"):
+        file = file_name
+    else: 
+        file = open(file_name)
+        text = file.read()
+        file.close()
 
     # ignoring punctuation 
     for char in '~`@#$%^&*(){}[]\|<>:;/!?-.,\n':
