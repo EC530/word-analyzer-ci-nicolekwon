@@ -9,7 +9,7 @@
 
 
 - [Descriptions of Project and Phases](#descriptions)
-- [Explanation of Code Layout](#explanation)
+- [Explanations of Code Set-Up and Layout](#explanation)
 
 ---
 
@@ -37,7 +37,19 @@ Phase 3:  (Due 1/30)
 
 ---
 
-## Explanation
+## Explanations
+
+#### Set-Up 
+
+1. Clone the Github repository onto your local machine. 
+2. Download [Python3](https://www.python.org/downloads/) if not installed already.
+3. Open Terminal and first run the following commands to download dependencies: 
+> pip3 install matplotlib
+> pip3 install PyPDF2
+4. To start the program, run the following command: 
+> python3 analyzer.py
+
+#### Layout 
 
 ---
 
