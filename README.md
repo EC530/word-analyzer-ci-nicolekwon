@@ -43,11 +43,13 @@ Phase 3:  (Due 1/30)
 
 1. Clone the Github repository onto your local machine. 
 2. Download [Python3](https://www.python.org/downloads/) if not installed already.
-3. Open Terminal and first run the following commands to download dependencies: 
-> pip3 install matplotlib
-> pip3 install PyPDF2
-4. To start the program, run the following command: 
-> python3 analyzer.py
+3. Open Terminal and run the following commands: 
+
+| Command | Purpose |
+| --- | --- |
+| `pip3 install matplotlib` | Package used for displaying the histogram |
+| `pip3 install PyPDF2` | Package used for reading a PDF |
+| `python3 analyzer.py` | Line used for running the program |
 
 #### Layout 
 
