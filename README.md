@@ -23,8 +23,8 @@ The exercise application mission behind this project is to analyze a document. S
 
 Phase 1:   (Due 1/23)
 - [x] Study [GitHub Actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)
-- [ ] Define your programming rules and styles
-- [ ] Develop Github actions and implement your rules using preferred linter (flake8)
+- [x] Define your programming rules and styles
+- [x] Develop Github actions and implement your rules using preferred linter (flake8)
 - [ ] Develop the main console application or stub function
 
 Phase 2:  (Due 1/27)
