@@ -4,8 +4,8 @@ import numpy as np
 # counting word frequency
 def count_words():
 
-    # prompting input and reading file
-    file_name = input('Enter file name: ')
+    # reading file
+    file_name = 'test.txt'
     file = open(file_name)
     text = file.read()
     file.close()
