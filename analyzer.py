@@ -3,13 +3,10 @@ import numpy as np
 import PyPDF2
 
 # counting word frequency
-def count_words():
-
-    # prompting user input
-    file_name = input('Enter file name: ')
-    last_char = file_name[-1]
+def count_words(file_name):
 
     # reading pdf
+    last_char = file_name[-1]
     if (last_char == 'f'):
         pdfFileObj = open(file_name, 'rb')
         pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
@@ -54,10 +51,13 @@ def count_words():
     plt.ylabel('Frequency')
     plt.show()
 
-    return word_frequency
+    return word_list, word_frequency
 
 def main():
-    word_frequency = count_words()
+    # testing .txt file
+    word_list, word_frequency = count_words('test.txt')
+    print(word_list)
+    print(word_frequency)
 
 if __name__ == "__main__":
     main()
