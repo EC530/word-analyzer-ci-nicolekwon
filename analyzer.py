@@ -55,7 +55,7 @@ def count_words(file_name):
 
 def main():
     # testing .txt file
-    word_list, word_frequency = count_words('test.txt')
+    word_list, word_frequency = count_words('test.pdf')
     print(word_list)
     print(word_frequency)
 
