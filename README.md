@@ -53,9 +53,13 @@ Phase 3:  (Due 1/30)
 | `pip3 install PyPDF2` | Package used for reading a PDF |
 | `python3 analyzer.py` | Line used for running the program |
 
-#### Layout 
+#### Layout
+
+- python-package.yml: Contains the workflow for Github Actions, allowing for continuous integration of programming rules/styles, linting, and unit testing
+- requirements.txt: Specifies prerequisites of the different dependencies used in the code
+- analyzer.py: Counts the frequency of all the words contained in a text or PDF file and displays a histogram
+- test_analyzer.py: Runs 2 unit tests for reading and analyzing the word frequencies in test.txt and test.pdf
 
 ---
-
 
 [Back to the Top](#word-analyzer-ci-nicolekwon)
