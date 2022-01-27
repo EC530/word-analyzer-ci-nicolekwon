@@ -20,7 +20,7 @@ def count_words(file_name):
         file.close()
 
     # ignoring punctuation
-    for char in '\~`—@#$%^&*(){}[]|<>:;/!?-.,\n':
+    for char in '\\~`—@#$%^&*(){}[]|<>:;/!?-.,\n':
         text = text.replace(char, ' ')
     text = text.lower()
     wlist = text.split()
