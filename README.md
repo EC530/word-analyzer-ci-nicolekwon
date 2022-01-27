@@ -19,7 +19,7 @@
 
 The exercise application mission behind this project is to analyze a document. Specifically, the user stories are reading text files and creating histograms of all the word frequencies in documents.
 
-Optional functionalities that I added include reading PDF files and displaying the histograms. 
+Optional functionalities that were added include reading PDF files and displaying the histograms. 
 
 #### Phases
 
