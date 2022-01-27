@@ -43,6 +43,11 @@ def count_words(file_name):
         # counting the frequency of each word
         word_frequency.append(wlist.count(word_list[i]))
 
+    return word_list, word_frequency
+
+
+def plot_histogram(word_list, word_frequency):
+
     # plotting a histogram
     x = np.arange(len(word_list))
     plt.bar(x, height=word_frequency, width=0.99)
@@ -51,13 +56,13 @@ def count_words(file_name):
     plt.xlabel('Word')
     plt.ylabel('Frequency')
     plt.show()
-
-    return word_list, word_frequency
+    return
 
 
 def main():
     # testing .txt file
     word_list, word_frequency = count_words('test.txt')
+    plot_histogram(word_list, word_frequency)
     print(word_list)
     print(word_frequency)
 
