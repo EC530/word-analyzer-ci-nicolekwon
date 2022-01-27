@@ -6,6 +6,7 @@ expected_word_list_txt = ['i', 'have', 'been', 'one', 'acquainted',
 expected_word_frequency_txt = [2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
 
 expected_word_list_pdf = ['some', 'say', 'the', 'world', 'will', 'end', 'in', 'fire', 'ice']
+
 expected_word_frequency_pdf = [2, 2, 1, 1, 1, 1, 2, 1, 1]
 
 
