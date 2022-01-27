@@ -53,6 +53,12 @@ Phase 3:  (Due 1/30)
 | `pip3 install PyPDF2` | Package used for reading a PDF |
 | `python3 analyzer.py` | Line used for running the program |
 
+4. If you want to analyze the PDF instead of the text file, change 'test.txt' to 'test.pdf' in the following line of analyzer.py:
+
+```
+word_list, word_frequency = count_words('test.txt')
+```
+
 #### Layout
 
 - python-package.yml: Contains the workflow for Github Actions, allowing for continuous integration of programming rules/styles, linting, and unit testing
