@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import PyPDF2
 
+
 # counting word frequency
 def count_words(file_name):
 
@@ -13,20 +14,20 @@ def count_words(file_name):
         pageObj = pdfReader.getPage(0)
         text = pageObj.extractText()
     # reading text file
-    else: 
+    else:
         file = open(file_name)
         text = file.read()
         file.close()
 
-    # ignoring punctuation 
-    for char in '~`—@#$%^&*(){}[]\|<>:;/!?-.,\n':
-        text=text.replace(char,' ')
+    # ignoring punctuation
+    for char in '~`—@#$%^&*(){}[]|<>:;/!?-.\,\n':
+        text = text.replace(char, ' ')
     text = text.lower()
     wlist = text.split()
 
     # breaking the text up
-    word_frequency = [] # number of times a word has been mentioned
-    word_list = [] # different words 
+    word_frequency = []  # number of times a word has been mentioned
+    word_list = []  # different words 
   
     # looping until all words separated
     for i in wlist:             
