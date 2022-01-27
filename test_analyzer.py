@@ -1,20 +1,7 @@
 import analyzer
 
-expected_word_list_txt = 
-['i',
-'have',
-'been',
-'one', 
-'acquainted',
-'with',
-'the',
-'night',
-'walked',
-'out',
-'in',
-'rain',
-'and', 
-'back']
+expected_word_list_txt = ['i', 'have', 'been', 'one', 'acquainted',
+'with', 'the', 'night', 'walked', 'out', 'in', 'rain', 'and', 'back']
 
 expected_word_frequency_txt = [2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
 
