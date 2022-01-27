@@ -29,10 +29,10 @@ Phase 1:   (Due 1/23)
 
 Phase 2:  (Due 1/27)
 - [x] Complete basic functionality
-- [ ] Define unit tests for your program and implement example console application and one test
+- [x] Define unit tests for your program and implement example console application and one test
 
 Phase 3:  (Due 1/30)
-- [ ] Implement your test programs and integrate them in GitHub actions
+- [x] Implement your test programs and integrate them in GitHub actions
 - [ ] Complete and deliver homework
 
 ---
