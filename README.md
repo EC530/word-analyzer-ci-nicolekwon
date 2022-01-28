@@ -56,7 +56,7 @@ Phase 3:  (Due 1/30)
 4. If you want to analyze the PDF instead of the text file, change 'test.txt' to 'test.pdf' in the following line of analyzer.py:
 
 ```
-word_list, word_frequency = count_words('test.txt')
+file_name = 'test.txt'
 ```
 
 #### Layout
