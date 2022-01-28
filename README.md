@@ -17,9 +17,9 @@
 
 #### Project
 
-The exercise application mission behind this project is to analyze a document. Specifically, the user stories are reading text files and creating histograms of all the word frequencies in documents.
+The exercise application mission behind this project is to analyze a document. Specifically, the user stories are reading text files and creating histograms of all the word frequencies in documents. In this project, word frequencies refer to the number of times each word has appeared in the document. Optional functionalities that were added include reading PDF files and displaying the histograms. 
 
-Optional functionalities that were added include reading PDF files and displaying the histograms. 
+With Github as its code management tool, this project utilizes Github Actions to inspect code quality and Github Issues to document the Agile development process.
 
 #### Phases
 
@@ -35,7 +35,7 @@ Phase 2:  (Due 1/27)
 
 Phase 3:  (Due 1/30)
 - [x] Implement your test programs and integrate them in GitHub actions
-- [ ] Complete and deliver homework
+- [x] Complete and deliver homework
 
 ---
 
