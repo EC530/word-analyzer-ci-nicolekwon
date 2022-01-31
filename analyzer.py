@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import PyPDF2
+import logging
 
 
 # counting word frequency
@@ -60,12 +61,14 @@ def plot_histogram(word_list, word_frequency, file_name):
 
 
 def main():
+    logging.info('Started')
     # testing .txt file
     file_name = 'test.txt'
     word_list, word_frequency = count_words(file_name)
-    plot_histogram(word_list, word_frequency, file_name)
     print(word_list)
     print(word_frequency)
+    plot_histogram(word_list, word_frequency, file_name)
+    logging.info('Finished')
 
 
 if __name__ == "__main__":
